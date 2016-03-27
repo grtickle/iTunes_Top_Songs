@@ -1,0 +1,58 @@
+table {
+	table-layout: fixed; 
+	width: 75%;
+	margin: auto;
+	
+}
+
+td {
+	word-wrap: break-word;
+}
+
+audio {
+	width: 100px;
+	margin-right:30px;
+}
+
+table, th, td {
+    border: 1px solid #c1c1c1;
+	border-collapse: collapse;
+}
+
+td, th {
+	padding: 5px;
+	font-family: Arial, sans-serif;
+	width: 100px;
+}
+
+caption {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+tr:nth-of-type(even) {
+	background-color: #eaeaea;
+}
+
+tr:nth-of-type(2) {
+	background-color: black;
+	color: white;
+}
+
+td:nth-of-type(4) {
+	text-align:center;
+}
+
+td:nth-of-type(5) {
+	text-align:center;
+}
+
+td:nth-of-type(6) {
+	text-align:center;
+}
+
+#slider {
+	width: 150px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Final Project</title>
+	<!-- Custom Widget Theme -->
+	<link rel="stylesheet" href="jquery-ui.css">
+	<!-- jQuery Library -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>	
+	<!-- jQuery UI Library -->
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<!-- CSS style sheet-->
+    <link href="index.css" type="text/css" rel="stylesheet">
+	<!-- Javascript-->
+	<script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+<table  id="songs">
+	<caption>iTunes Top Hits</caption>
+	<tr>	
+		<td colspan="6">
+			<form>
+			<!-- Select menu found at https://api.jquerymobile.com/selectmenu/ -->
+			  <label for="select-choice-0" class="select">Select Country: </label>
+				<select name="select-choice-0" id="dropdown">
+				  <option value="united_states">United States</option>
+				  <option value="india">India</option>
+				  <option value="turkey">Turkey</option>
+				</select>
+			  <br><br>
+				<div id="songNumber">Number of Songs: <span id="number">10</span><div id="slider"></div></div>
+			  <br><br>
+			  <input type="button" id="update" value="Update">
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<th>Song Title</th>
+		<th>Artist</th>
+		<th>Album</th>
+		<th>Album Cover</th>
+		<th>Song Sample</th>
+		<th>Video Link</th>
+	</tr>
+
+</table>
+
+</body>
+</html>
